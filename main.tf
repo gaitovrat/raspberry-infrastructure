@@ -11,4 +11,3 @@ provider "kubernetes" {
 module "cloudflare" {
   source = "./modules/cloudflare"
 }
-

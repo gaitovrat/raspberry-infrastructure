@@ -3,4 +3,3 @@ resource "kubernetes_namespace" "cloudflare_namespace" {
     name = "cloudflare-tunnel"
   }
 }
-
