@@ -1,6 +1,6 @@
 variable "kube_config_path" {
-  type = string
+  type        = string
   description = "Path to kubernetes config file"
-  default = "~/.kube/config"
+  default     = "~/.kube/config"
 }
 
