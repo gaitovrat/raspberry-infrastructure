@@ -9,5 +9,6 @@ provider "kubernetes" {
 }
 
 module "cloudflare" {
-  source = "./modules/cloudflare"
+  source      = "./modules/cloudflare"
+  config_path = var.cloudflare_config_path
 }
