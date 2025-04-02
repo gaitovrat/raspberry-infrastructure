@@ -1,5 +1,5 @@
 # Raspberry Infrastructure
-Infrastructure code for k3s cluster on raspberry pie.
+Infrastructure code for k3s cluster on raspberry pi.
 
 ## Apply terraform
 ```sh
